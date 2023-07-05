@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Quote</title>
+</head>
+<body>
+   <header id="header">
+    <a href="index.html"><img src="icons/logo.png" alt="logo"></a>
+<div class="menu">
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQ</a>
+    <a href="Quote.html">Quotes</a>
+</div>
+<div class="social">
+    <a href="#"><img src="icons/icons8-facebook-f-50.png" alt="fb"></a>
+    <a href="#"><img src="icons/icons8-instagram-50.png" alt="instagram"></a>
+    <a href="#"><img src="icons/icons8-linkedin-2-50.png" alt="linkedin"></a>
+</div>
+
+<div class="mono hide">
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQ</a>
+    <a href="Quote.html">Quotes</a>
+</div>
+<img class="menus hide" src="icons/menu.png" alt="menu">
+
+</header><br>
+<!-- 
+ 
+  <img id="image" src="./persons/Sirius Black.jpg" title="Sirius Black" alt="Sirius Black" onclick="window.open(this.src)"> 
+  <img id="image" src="./persons/Dobby.jpg" title="Dobby" alt="Dobby" onclick="image(this)"> 
+  <img id="image" src="./persons/Albus Dumbledore.webp" title="Albus Dumbledore" alt="Albus Dumbledore" onclick="image(this)">
+  <img id="image" src="./persons/Horace Slughorn.jpg" title="Horace Slughorn" alt="Horace Slughorn" onclick="window.open(this.src)">
+  <img id="image" src="./persons/Luna Lovegood.webp" title="Luna Lovegood" alt="Luna Lovegood" onclick="window.open(this.src)"> 
+  <img id="image" src="./persons/Minerva McGonagall.jpg_large" title="Minerva McGonagall" alt="Minerva McGonagall" onclick="image(this)">
+  <img id="image" src="./persons/Kingsley Shacklebolt.jpg" title="Kingsley Shacklebolt" alt="Kingsley Shacklebolt" onclick="image(this)"> 
+  -->
+ <div  class="full-container" >
+    <img id="image" onclick="window.open(this.src)">
+</div>
+    <div class="outer-container">  
+    <i><h4 id="quotes"></h4></i>
+    <b><p id="author"></p></b>
+    <button id="generate" onclick="randomBgHex()">Generate</button>
+</div>
+
+    <script src="Quote.js"></script>
+</body>
+</html>
